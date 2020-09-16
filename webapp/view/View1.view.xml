@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.CSV.CSVUpload.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Button text="Open Uploader" press = "onOpenUplod"></Button>
+						<Link id ="idLink" text = "Download Template" href = "/com/CSV/CSVUpload/model/sample.csv" target = "_blank"></Link>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
